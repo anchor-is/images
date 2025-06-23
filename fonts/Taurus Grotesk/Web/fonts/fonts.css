@@ -1,0 +1,210 @@
+/*
+ * This font is the intellectual property of Foster Type.
+ * Visit http://fostertype.com for licencing information.
+ * Copyright 2017 Foster Type. All your font are belong to us.
+*/
+
+/* Example CSS for William Bull on anchor.is */
+
+
+    /* font-face declarations */
+
+        @font-face {
+            font-family: 'Taurus Grotesk';
+            src: url('TaurusGrotesk-Thin.woff2') format('woff2'), url('TaurusGrotesk-Thin.woff') format('woff');
+            font-weight: 200;
+            font-style: normal;
+            font-stretch: normal;
+        }
+
+        @font-face {
+            font-family: 'Taurus Grotesk';
+            src: url('TaurusGrotesk-ThinItalic.woff2') format('woff2'), url('TaurusGrotesk-ThinItalic.woff') format('woff');
+            font-weight: 200;
+            font-style: italic;
+            font-stretch: normal;
+        }
+
+        @font-face {
+            font-family: 'Taurus Grotesk';
+            src: url('TaurusGrotesk-Light.woff2') format('woff2'), url('TaurusGrotesk-Light.woff') format('woff');
+            font-weight: 300;
+            font-style: normal;
+            font-stretch: normal;
+        }
+
+        @font-face {
+            font-family: 'Taurus Grotesk';
+            src: url('TaurusGrotesk-LightItalic.woff2') format('woff2'), url('TaurusGrotesk-LightItalic.woff') format('woff');
+            font-weight: 300;
+            font-style: italic;
+            font-stretch: normal;
+        }
+
+        @font-face {
+            font-family: 'Taurus Grotesk';
+            src: url('TaurusGrotesk-Regular.woff2') format('woff2'), url('TaurusGrotesk-Regular.woff') format('woff');
+            font-weight: 400;
+            font-style: normal;
+            font-stretch: normal;
+        }
+
+        @font-face {
+            font-family: 'Taurus Grotesk';
+            src: url('TaurusGrotesk-Italic.woff2') format('woff2'), url('TaurusGrotesk-Italic.woff') format('woff');
+            font-weight: 400;
+            font-style: italic;
+            font-stretch: normal;
+        }
+
+        @font-face {
+            font-family: 'Taurus Grotesk';
+            src: url('TaurusGrotesk-Medium.woff2') format('woff2'), url('TaurusGrotesk-Medium.woff') format('woff');
+            font-weight: 500;
+            font-style: normal;
+            font-stretch: normal;
+        }
+
+        @font-face {
+            font-family: 'Taurus Grotesk';
+            src: url('TaurusGrotesk-MediumItalic.woff2') format('woff2'), url('TaurusGrotesk-MediumItalic.woff') format('woff');
+            font-weight: 500;
+            font-style: italic;
+            font-stretch: normal;
+        }
+
+        @font-face {
+            font-family: 'Taurus Grotesk';
+            src: url('TaurusGrotesk-Bold.woff2') format('woff2'), url('TaurusGrotesk-Bold.woff') format('woff');
+            font-weight: 600;
+            font-style: normal;
+            font-stretch: normal;
+        }
+
+        @font-face {
+            font-family: 'Taurus Grotesk';
+            src: url('TaurusGrotesk-BoldItalic.woff2') format('woff2'), url('TaurusGrotesk-BoldItalic.woff') format('woff');
+            font-weight: 600;
+            font-style: italic;
+            font-stretch: normal;
+        }
+
+        @font-face {
+            font-family: 'Taurus Grotesk';
+            src: url('TaurusGrotesk-Heavy.woff2') format('woff2'), url('TaurusGrotesk-Heavy.woff') format('woff');
+            font-weight: 800;
+            font-style: normal;
+            font-stretch: normal;
+        }
+
+        @font-face {
+            font-family: 'Taurus Grotesk';
+            src: url('TaurusGrotesk-HeavyItalic.woff2') format('woff2'), url('TaurusGrotesk-HeavyItalic.woff') format('woff');
+            font-weight: 800;
+            font-style: italic;
+            font-stretch: normal;
+        }
+
+        @font-face {
+            font-family: 'Taurus Grotesk';
+            src: url('TaurusGrotesk-Black.woff2') format('woff2'), url('TaurusGrotesk-Black.woff') format('woff');
+            font-weight: 900;
+            font-style: normal;
+            font-stretch: normal;
+        }
+
+        @font-face {
+            font-family: 'Taurus Grotesk';
+            src: url('TaurusGrotesk-BlackItalic.woff2') format('woff2'), url('TaurusGrotesk-BlackItalic.woff') format('woff');
+            font-weight: 900;
+            font-style: italic;
+            font-stretch: normal;
+        }
+
+    
+    /* Example classes */
+
+        .TaurusGrotesk-Thin {
+            font-family: 'Taurus Grotesk';
+            font-style: normal;
+            font-weight: 200;
+        }
+
+        .TaurusGrotesk-ThinItalic {
+            font-family: 'Taurus Grotesk';
+            font-style: italic;
+            font-weight: 200;
+        }
+
+        .TaurusGrotesk-Light {
+            font-family: 'Taurus Grotesk';
+            font-style: normal;
+            font-weight: 300;
+        }
+
+        .TaurusGrotesk-LightItalic {
+            font-family: 'Taurus Grotesk';
+            font-style: italic;
+            font-weight: 300;
+        }
+
+        .TaurusGrotesk-Regular {
+            font-family: 'Taurus Grotesk';
+            font-style: normal;
+            font-weight: 400;
+        }
+
+        .TaurusGrotesk-Italic {
+            font-family: 'Taurus Grotesk';
+            font-style: italic;
+            font-weight: 400;
+        }
+
+        .TaurusGrotesk-Medium {
+            font-family: 'Taurus Grotesk';
+            font-style: normal;
+            font-weight: 500;
+        }
+
+        .TaurusGrotesk-MediumItalic {
+            font-family: 'Taurus Grotesk';
+            font-style: italic;
+            font-weight: 500;
+        }
+
+        .TaurusGrotesk-Bold {
+            font-family: 'Taurus Grotesk';
+            font-style: normal;
+            font-weight: 600;
+        }
+
+        .TaurusGrotesk-BoldItalic {
+            font-family: 'Taurus Grotesk';
+            font-style: italic;
+            font-weight: 600;
+        }
+
+        .TaurusGrotesk-Heavy {
+            font-family: 'Taurus Grotesk';
+            font-style: normal;
+            font-weight: 800;
+        }
+
+        .TaurusGrotesk-HeavyItalic {
+            font-family: 'Taurus Grotesk';
+            font-style: italic;
+            font-weight: 800;
+        }
+
+        .TaurusGrotesk-Black {
+            font-family: 'Taurus Grotesk';
+            font-style: normal;
+            font-weight: 900;
+        }
+
+        .TaurusGrotesk-BlackItalic {
+            font-family: 'Taurus Grotesk';
+            font-style: italic;
+            font-weight: 900;
+        }
+
